@@ -1,0 +1,9 @@
+voice-app uses sherpa-onnx (Apache 2.0), ONNX Runtime (MIT), and the Apache 2.0 licensed streaming English Zipformer model.
+
+Runtime: https://github.com/k2-fsa/sherpa-onnx (v2.0.1)
+Inference runtime: https://github.com/microsoft/onnxruntime (1.28.2)
+Model: sherpa-onnx-streaming-zipformer-en-2023-06-26-mobile
+Original model: https://huggingface.co/Zengwei/icefall-asr-librispeech-streaming-zipformer-2023-05-17
+Model training: https://github.com/k2-fsa/icefall/pull/1058
+
+The model archive's README declares Apache 2.0. Only the quantized encoder/joiner, decoder and tokens are bundled; weights are not retrained. See MODEL-LICENSE.md and accompanying license texts.
